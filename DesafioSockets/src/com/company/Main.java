@@ -30,7 +30,7 @@ public class Main {
                 System.out.println("HOST ADDRESS = " + socket.getInetAddress().getHostAddress());
                 System.out.println("LOCAL PORT = " + socket.getLocalPort());
                 System.out.println("PORT = " + socket.getPort() + "\r\n\r\n");
-                System.out.println("send 'close' to close the connection.");
+                System.out.println("send 'close' to close the connection.\r\n\r\n");
                 new Server(socket).start();
             } catch (IOException e) {
                 e.printStackTrace();
